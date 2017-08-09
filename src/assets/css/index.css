@@ -1,0 +1,25 @@
+@import "bootstrap.css";
+@import "xenon-core.css";
+@import "xenon-forms.css";
+@import "fonts/fontawesome/css/font-awesome.min.css";
+
+.ButtonDropdownMask {
+ position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 999;
+}
+
+.FCheckbox + .FCheckbox {
+  margin-left: 10px;
+}
+
+.FRadio + .FRadio {
+  margin-left: 10px;
+}
+
+.FSelect .selectboxit-options {
+  padding-bottom: 10px;
+}
