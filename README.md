@@ -3,7 +3,7 @@
 </p>
 <h1 align="center">Forver</h1>
 
-[![npm](https://img.shields.io/badge/npm-0.0.1-brightgreen.svg)](https://www.npmjs.com/package/forver)
+[![npm](https://img.shields.io/badge/npm-0.0.3-brightgreen.svg)](https://www.npmjs.com/package/forver)
 [![version](https://img.shields.io/badge/version-beta-red.svg)](https://www.npmjs.com/package/forver)
 [![version](https://img.shields.io/badge/IE-9+-green.svg)](https://www.npmjs.com/package/forver)
 [![version](https://img.shields.io/badge/Chrome-√-yellowgreen.svg)](https://www.npmjs.com/package/forver)
@@ -23,6 +23,7 @@ npm install forver --save
 
 ## 开始
 ``` js
+import 'forver/dist/css/forver.min.css'
 import F from 'forver'
 Vue.use(F)
 ```
