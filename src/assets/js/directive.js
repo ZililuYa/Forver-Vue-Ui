@@ -1,11 +1,10 @@
-import $ from 'jquery'
-
 const directive = {
   F: (Vue) => {
     Vue.directive('FTooltips', {
       bind: () => {
       },
       inserted: (el, binding) => {
+        let $ = window.jQuery
         let value = binding.value
         let type = 'default'
         let id = ''

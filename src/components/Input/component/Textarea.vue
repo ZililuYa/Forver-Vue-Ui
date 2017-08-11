@@ -1,10 +1,8 @@
 <template>
-  <input
-    v-if="type!=='textarea'"
+  <textarea
     ref="input"
-    :class="`form-control form-focus-${color}`"
+    class="form-control"
     :value="nowValue"
-    :type="type"
     v-bind="$props"
     :placeholder="placeholder"
     :disabled="disabled"
@@ -12,13 +10,14 @@
     @focus="focusEvent"
     @blur="blurEvent"
   >
+  </textarea>
 </template>
 <script>
   /**
    *
    * */
   export default {
-    name: 'FInput',
+    name: 'FTextarea',
     data () {
       return {
         nowValue: ''
@@ -26,14 +25,6 @@
     },
     props: {
       placeholder: String,
-      type: {
-        type: String,
-        default: 'text'
-      },
-      color: {
-        type: String,
-        default: 'success'
-      },
       value: [String, Number],
       disabled: {
         type: Boolean,
@@ -61,11 +52,9 @@
       },
       focusEvent (evt) {
         this.$emit('focus', evt)
-        if (this.$parent.focusEvent) this.$parent.focusEvent(this.color)
       },
       blurEvent (evt) {
         this.$emit('blur', evt)
-        if (this.$parent.blurEvent) this.$parent.blurEvent()
       }
     }
   }

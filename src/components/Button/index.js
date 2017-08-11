@@ -1,7 +1,7 @@
-import Panels from './component/Button.vue'
+import Button from './component/Button.vue'
 const app = {
   install: function (Vue) {
-    Vue.component(Panels.name, Panels)
+    Vue.component(Button.name, Button)
   }
 }
 

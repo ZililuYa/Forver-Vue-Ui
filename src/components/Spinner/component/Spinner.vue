@@ -46,7 +46,7 @@
           if (isNaN(this.number)) this.number = this.min || 1
           if (this.max && val > this.max) this.number = this.max
           if (this.min && val < this.min) this.number = this.min
-          // this.number = this.number.replace(/[\W]/g, '')
+          this.$emit('input', this.number)
         }
       }
     }

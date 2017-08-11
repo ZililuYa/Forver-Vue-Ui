@@ -15,9 +15,11 @@
     "lint": "eslint --ext .js,.vue src test/unit/specs test/e2e/specs"
   },
   "dependencies": {
+    "devextreme": "^17.1.5",
     "jquery": "^3.2.1",
-    "vue": "^2.3.3",
-    "vue-router": "^2.6.0"
+    "jquery-validation": "^1.17.0",
+    "nicescroll": "^3.7.4",
+    "vue": "^2.3.3"
   },
   "devDependencies": {
     "autoprefixer": "^7.1.2",

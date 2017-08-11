@@ -1,7 +1,7 @@
 <template>
-  <a type="button" :class="`
+  <button :type="type" :class="`
   btn
-  btn-${type}
+  btn-${color}
   ${icon?'btn-icon':''}
   ${icon_standalone?'btn-icon-standalone':''}
   ${disabled?'disabled':''}
@@ -10,7 +10,7 @@
      @click="clickEvent"
   >
     <slot></slot>
-  </a>
+  </Button>
 </template>
 <script>
   /**
@@ -24,6 +24,10 @@
     props: {
       title: String,
       type: {
+        type: String,
+        default: 'button'
+      },
+      color: {
         type: String,
         default: 'white'
       },

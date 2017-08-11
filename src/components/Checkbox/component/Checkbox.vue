@@ -3,7 +3,7 @@
     <div :class="`
     cbr-replaced
     ${nowChecked?'cbr-checked':''}
-    ${type?'cbr-'+type:''}
+    ${type?'cbr-'+type:'cbr-success'}
     `">
       <div class="cbr-input"><input type="checkbox" class="cbr cbr-done" v-model="nowChecked" @change="changeEvent" :name="name" :value="value"></div>
       <div class="cbr-state"><span></span></div>

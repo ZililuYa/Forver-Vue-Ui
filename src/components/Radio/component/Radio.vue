@@ -3,7 +3,7 @@
     <div :class="`
     cbr-replaced cbr-radio
     ${checked?'cbr-checked':''}
-    ${type?'cbr-'+type:''}
+    ${type?'cbr-'+type:'cbr-success'}
     `">
       <div class="cbr-input"><input ref="radio" type="radio" class="cbr cbr-done" :name="name" :value="value"></div>
       <div class="cbr-state"><span></span></div>
@@ -38,6 +38,7 @@
       clickEvent () {
         if (this.checked) return
         this.$parent.isClick(this.value)
+        this.$refs.radio.click()
       }
     }
   }

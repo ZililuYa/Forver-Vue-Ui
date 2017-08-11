@@ -1,10 +1,12 @@
 @import "bootstrap.css";
-@import "xenon-core.css";
-@import "xenon-forms.css";
+@import "core.css";
+@import "forms.css";
+@import "components.css";
 @import "fonts/fontawesome/css/font-awesome.min.css";
+@import "../js/multiselect/css/multi-select.css";
 
 .ButtonDropdownMask {
- position: fixed;
+  position: fixed;
   left: 0;
   top: 0;
   width: 100%;
@@ -22,4 +24,33 @@
 
 .FSelect .selectboxit-options {
   padding-bottom: 10px;
+}
+
+.FMultiSelect > div > .ms-list {
+  /*overflow-y: scroll;*/
+}
+
+.FMultiSelect .ms-elem-selectable {
+  cursor: pointer;
+}
+
+.FMultiSelect .ms-selection {
+  border-right: 1px solid #e4e4e4;
+}
+
+.FForm .form-group.has-error span.error {
+  padding-top: 5px;
+  color: rgba(204, 63, 68, 0.8);
+}
+
+.FForm .form-control {
+  margin: 5px 0;
+}
+
+.FForm .control-label {
+  margin-top: 5px;
+}
+
+.toast {
+  display: none;
 }
