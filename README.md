@@ -26,3 +26,5 @@ npm install forver --save
 import F from 'forver'
 Vue.use(F)
 ```
+
+> 暂不支持 ES5 引入JS

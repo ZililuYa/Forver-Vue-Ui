@@ -15,7 +15,6 @@
     "lint": "eslint --ext .js,.vue src test/unit/specs test/e2e/specs"
   },
   "dependencies": {
-    "devextreme": "^17.1.5",
     "jquery": "^3.2.1",
     "jquery-validation": "^1.17.0",
     "nicescroll": "^3.7.4",
