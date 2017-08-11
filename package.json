@@ -1,10 +1,9 @@
 {
-  "name": "Forver",
+  "name": "forver",
   "version": "0.0.1",
-  "description": "A Vue Ui project",
+  "description": "Forver is a set of Vue UI components based on Bootstrap.css",
   "author": "nesfe <1029131145@qq.com>",
   "main": "src/components/index.js",
-  "private": true,
   "scripts": {
     "dev": "node build/dev-server.js",
     "start": "node build/dev-server.js",

@@ -3,12 +3,14 @@
 </p>
 <h1 align="center">Forver</h1>
 
+<p align="center">
 [![npm](https://img.shields.io/badge/npm-0.0.1-brightgreen.svg)](https://www.npmjs.com/package/forver)
 [![version](https://img.shields.io/badge/version-beta-red.svg)](https://www.npmjs.com/package/forver)
 [![version](https://img.shields.io/badge/IE-9+-green.svg)](https://www.npmjs.com/package/forver)
 [![version](https://img.shields.io/badge/Chrome-√-yellowgreen.svg)](https://www.npmjs.com/package/forver)
 [![version](https://img.shields.io/badge/Firefox-√-yellowgreen.svg)](https://www.npmjs.com/package/forver)
 [![version](https://img.shields.io/badge/Safari-√-yellowgreen.svg)](https://www.npmjs.com/package/forver)
+</p>
 
 ## 介绍
 
