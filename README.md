@@ -1,30 +1,16 @@
-# n
+<p align="center">
+<img src="http://ohhzjlczd.bkt.clouddn.com/forver.png" alt="Forver" width="100">
+</p>
+<h1 align="center">Forver</h1>
 
-> A Vue.js project
+[![npm](https://img.shields.io/badge/npm-0.0.1-brightgreen.svg)](https://www.npmjs.com/package/forver)
+[![version](https://img.shields.io/badge/version-beta-red.svg)](https://www.npmjs.com/package/forver)
+[![version](https://img.shields.io/badge/IE-9+-green.svg)](https://www.npmjs.com/package/forver)
+[![version](https://img.shields.io/badge/Chrome-√-yellowgreen.svg)](https://www.npmjs.com/package/forver)
+[![version](https://img.shields.io/badge/Firefox-√-yellowgreen.svg)](https://www.npmjs.com/package/forver)
+[![version](https://img.shields.io/badge/Safari-√-yellowgreen.svg)](https://www.npmjs.com/package/forver)
 
-## Build Setup
+## 介绍
 
-``` bash
-# install dependencies
-npm install
-
-# serve with hot reload at localhost:8080
-npm run dev
-
-# build for production with minification
-npm run build
-
-# build for production and view the bundle analyzer report
-npm run build --report
-
-# run unit tests
-npm run unit
-
-# run e2e tests
-npm run e2e
-
-# run all tests
-npm test
-```
-
-For detailed explanation on how things work, checkout the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+Forver是一套Vue组件
+Forver is a set of Vue UI components based on Bootstrap.css
