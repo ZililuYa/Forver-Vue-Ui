@@ -13,4 +13,5 @@
 ## 介绍
 
 Forver是一套Vue组件
-Forver is a set of Vue UI components based on Bootstrap.css
+
+> Forver is a set of Vue UI components based on Bootstrap.css
