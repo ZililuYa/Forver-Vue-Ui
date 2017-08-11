@@ -15,3 +15,14 @@
 Forver是一套Vue组件
 
 > Forver is a set of Vue UI components based on Bootstrap.css
+
+## 安装
+``` bash
+npm install forver --save
+```
+
+## 开始
+``` js
+import F from 'forver'
+Vue.use(F)
+```
