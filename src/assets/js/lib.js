@@ -11,7 +11,9 @@ const lib = {
       cursorborder: '0px',
       cursorborderradius: '0px'
     }
-    window.jQuery('body').niceScroll(Forver)
+    if (window.jQuery('body').height() > window.jQuery(window).height()) {
+      window.jQuery('body').niceScroll(Forver)
+    }
     lan.setLanguage(window.jQuery)
   }
 }

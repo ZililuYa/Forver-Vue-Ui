@@ -1,6 +1,6 @@
 {
   "name": "forver",
-  "version": "0.0.3",
+  "version": "0.0.5",
   "description": "Forver is a set of Vue UI components based on Bootstrap.css",
   "author": "nesfe <1029131145@qq.com>",
   "main": "index.js",

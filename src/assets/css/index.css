@@ -5,6 +5,10 @@
 @import "fonts/fontawesome/css/font-awesome.min.css";
 @import "../js/multiselect/css/multi-select.css";
 
+body {
+	height: auto;
+}
+
 .ButtonDropdownMask {
   position: fixed;
   left: 0;
